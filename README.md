@@ -11,19 +11,19 @@ To build a rune setup, follow these rules:
 4. **Read rune dynamics below**: The specific impact of each modifier and effect is described in the following sections of this document.
 
 ```
-             |-------|
-             | Modi1 |
-             |-------|
-                 ^
-|--------|  |--------| |-------|
-| Target |=>| Effect |>| Modi2 |
-|--------|  |--------| |-------|  
-                 v
-             |-------|
-             | Modi3 |
-             |-------|
-                 
+             |-------|              |-------|
+             | Modi1 |              | Modi1 |
+             |-------|              |-------|
+                 ^                      ^
+|--------|  |--------|  |--------|  |--------|  |-------|
+|  Modi2 |< |Effect1 |< | Target | >|Effect2 | >| Modi2 |
+|--------|  |--------|  |--------|  |--------|  |-------|  
+                 v                      v
+             |-------|              |-------|
+             | Modi3 |              | Modi3 |
+             |-------|              |-------|                 
 ```
+![alt text](8f25ea2b-710e-4923-8396-4813ed31c430.png)
 ---
 ### Target runes
 
@@ -34,6 +34,12 @@ To build a rune setup, follow these rules:
 #### Touch
 
 > Centers the point you have touched with one of your hands
+
+##### Modifiers
+
+- Trigger: Whatever you touch will be effected by your spell once someone interacts with that object/entity
+- Grand delay: Staggers the spell by an extra hour
+- Minor delay: Staggers the spell by an extra minute
 
 #### Entity
 
