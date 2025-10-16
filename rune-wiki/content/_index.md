@@ -12,11 +12,6 @@ To build a rune setup, follow these rules:
 
 ### Target runes
 
-dsadsada
-
-
-dsadsa
-
 #### Self
 
 > Centered at yourself

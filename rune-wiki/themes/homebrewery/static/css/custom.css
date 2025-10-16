@@ -5,4 +5,11 @@
 .phb {
     width: 100%;
     height: auto;
+    column-fill: balance !important;
+    overflow: scroll !important;
+}
+
+.phb code {
+    font-weight: bold !important;
+    visibility: visible !important;
 }
