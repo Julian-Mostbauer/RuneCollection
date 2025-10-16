@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="{{ "css/phb.standalone.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+</head>
+<body class="phb">
+<main>
+    {{ block "main" . }}{{ end }}
+</main>
+</body>
+</html>
