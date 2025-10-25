@@ -23,7 +23,7 @@ View the manual for **targeting runes** [here](targeting-runes)
 
 ### Effect runes
 
-View the manual for **effect runes** [here](effect-runes)  
+View the manual for **effect runes** [here](effect-runes)
 
 ## Example Spells
 

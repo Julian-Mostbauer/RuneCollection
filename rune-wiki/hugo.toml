@@ -1,4 +1,5 @@
-baseURL = 'https://Julian-Mostbauer/RuneCollection/'
+baseURL = 'https://julian-mostbauer.github.io/RuneCollection/'
+canonifyURLs = true
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'homebrewery'
