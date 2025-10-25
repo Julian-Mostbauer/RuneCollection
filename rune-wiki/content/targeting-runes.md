@@ -1,3 +1,8 @@
++++
+title = "Targeting Runes"
+url = "/targeting-runes/"
++++
+
 # Targeting Runes
 
 Targeting Runes can be used to select different targets for your spells.

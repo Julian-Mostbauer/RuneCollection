@@ -1,3 +1,7 @@
++++
+title = "Rune Collection"
++++
+
 # RuneCollection
 
 **Unlock the secrets of magic, one rune at a time.**
