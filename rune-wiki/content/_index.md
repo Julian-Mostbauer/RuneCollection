@@ -19,11 +19,11 @@ Below, you’ll find the rules for constructing your rune setups, manuals for ta
 
 ### Target runes
 
-View the manual for **targeting runes** [here](/targeting-runes)
+View the manual for **targeting runes** [here](targeting-runes)
 
 ### Effect runes
 
-View the manual for **effect runes** [here](/effect-runes)  
+View the manual for **effect runes** [here](effect-runes)  
 
 ## Example Spells
 

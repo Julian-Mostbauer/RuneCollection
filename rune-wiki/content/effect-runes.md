@@ -1,6 +1,6 @@
 +++
 title = "Effect Runes"
-url = "/effect-runes/"
+url = "effect-runes/"
 +++
 
 # Effect Runes

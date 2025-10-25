@@ -1,6 +1,6 @@
 +++
 title = "Targeting Runes"
-url = "/targeting-runes/"
+url = "targeting-runes/"
 +++
 
 # Targeting Runes
