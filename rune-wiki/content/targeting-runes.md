@@ -2,8 +2,6 @@
 title = "Targeting Runes"
 +++
 
-# Targeting Runes
-
 Targeting Runes can be used to select different targets for your spells.
 They are the **root** of any rune setup.
 

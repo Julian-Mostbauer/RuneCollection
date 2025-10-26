@@ -2,8 +2,6 @@
 title = "Effect Runes"
 +++
 
-# Effect Runes
-
 Effect runes can be used to add **effects** to your spells. They make your spells unique.
 
 ## Area
