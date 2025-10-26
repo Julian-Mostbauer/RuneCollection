@@ -2,53 +2,106 @@
 title = "Effect Runes"
 +++
 
-Effect runes can be used to add **effects** to your spells. They make your spells unique.
+# Effect Runes
+
+**Summary**
+
+Effect runes define what a rune setup does when it resolves. They determine the form of the magical outcome (blast, charm, summoning, etc.), its base mechanical effect, and which modifiers may alter its potency, area, or duration.
+
+**How to read an effect entry**
+
+- Name — short description
+- Mechanics — step-by-step mechanical resolution
+- Modifiers — common modifiers and their mechanical changes
+- Example — quick use case
 
 ## Area
 
-> Creates an area around spell invocation
+**Area** — Creates a persistent or instantaneous area centered on the invocation point.
 
-### Modifiers
+**Mechanics:**
 
-    - Fire: Sets area on fire, dealing crc d4 + 1 fire damage 
-- Range: Increases radius of area by 2 ft
+- Determine origin (Targeting rune provides point).
+- Calculate radius (base radius ± Range modifiers).
+- Apply the effect to creatures and objects that begin their turn or enter the area, depending on the effect.
+
+**Modifiers**
+
+- Fire: Ignites the area; creatures that enter or start their turn in the area take crc d4 + 1 fire damage.
+- Range: Increases radius by 2 ft per step.
+
+**Example**
+
+A 10-foot area of searing flame set at the caster's command. Enemies who enter or stand within are burned each round.
 
 ## Explosion
 
-> Creates a blast that radiates outward from the target point
+**Explosion** — A single instant blast that radiates outward from the target point.
 
-### Modifiers
+**Mechanics:**
 
-- Fire: Adds fire damage equal to crc d6 + 2
-- Git push: Pushes creatures 10ft away
-- Git pull: Pushes creatures 10ft towards the center
-- Merge conflict: Inflicts crc d8 psychic damage
-- Range: Increases explosion radius by 5 ft
-- Intensity: Increases damage dice by one step (d4→d6→d8→d10→d12)
+- On resolution, choose the impact point.
+- Roll area-of-effect checks and apply damage and secondary effects to all creatures within the radius.
 
-## Enchantment runes
+**Modifiers**
 
-> Applies a magical effect of type _ to target(s), with a save of _ and a duration of _. The target can make the save to break free every turn.
+- Fire: Adds fire damage equal to crc d6 + 2.
+- Git push: (Fluff) Pushes creatures 10 ft away from the center.
+- Git pull: (Fluff) Pulls creatures 10 ft toward the center.
+- Merge conflict: (Fluff) Inflicts crc d8 psychic damage.
+- Range: Increases explosion radius by 5 ft.
+- Intensity: Increase damage dice one step (d4 → d6 → d8 → d10 → d12).
 
-### Sub runes
+**Example**
 
-- Charm: Target must make Wisdom save or be charmed for 1 minute (base)
-- Fear: Target must make Wisdom save or be frightened for 1 minute (base)
-- Sleep: Target must make Constitution save or fall unconscious for 1 minute (base)
-- Slow: Target's speed is halved for 1 minute (base) and can only take one action per turn
+A thrown rune detonates at a point, dealing force and elemental damage in a 15-foot radius.
 
-### Modifiers
+## Enchantment
 
-- Saves++: +1 to the save dc
-- Duration: increases duration by 20%, or at least one full round
+**Enchantment** — Binds magical conditions to targets (charm, fear, sleep, slow).
+
+**Mechanics:**
+
+- Choose targets per the targeting rune.
+- Targets must make the listed saving throw (typically Wisdom or Constitution).
+- On failed save, the effect applies for the listed duration. Targets may repeat the save as specified.
+
+**Subrunes**
+
+- Charm: Target makes Wisdom save or is charmed for 1 minute (base).
+- Fear: Target makes Wisdom save or is frightened for 1 minute (base).
+- Sleep: Target makes Constitution save or falls unconscious for 1 minute (base).
+- Slow: Target's speed is halved for 1 minute (base); affected creatures can take only one action on their turn.
+
+**Modifiers**
+
+- Saves++: +1 to the effect's save DC.
+- Duration: Increase duration by 20% (or at least one full round).
+
+**Example**
+
+A caster places an Enchantment:Charm on a guard; the guard must succeed on a Wisdom save to resist or be friendly for the encounter.
 
 ## Conjuration
 
-> Creates temporary magical constructs or summons
+**Conjuration** — Summons creatures, constructs, or temporary magical objects.
 
-### Modifiers
+**Mechanics:**
 
-- Wall: Creates a barrier that blocks movement and line of sight
-- Weapon: Summons a spectral weapon that attacks independently
-- Creature: Summons a temporary ally to fight alongside the caster
-- Duration: Increases effect duration by 1 minute
+- Determine creature/stat block and duration per rune and modifiers.
+- Summoned entities act on the caster's initiative unless otherwise specified.
+
+**Modifiers**
+
+- Wall: Creates a temporary barrier that blocks movement and line of sight.
+- Weapon: Summons a spectral weapon that attacks under simple commands.
+- Creature: Summons a temporary ally with limited HP and actions.
+- Duration: Increase effect duration by 1 minute per step.
+
+**Example**
+
+Conjuration:Creature summons a loyal wisp that distracts enemies for 3 rounds.
+
+**Notes**
+
+- Flavor names like "Git push" and "Merge conflict" are intentional whimsical modifiers; convert to campaign-appropriate terms if desired.

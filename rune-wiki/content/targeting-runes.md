@@ -2,39 +2,80 @@
 title = "Targeting Runes"
 +++
 
-Targeting Runes can be used to select different targets for your spells.
-They are the **root** of any rune setup.
+# Targeting Runes
 
-They can be **modified** like any other runes
+**Summary**
+
+Targeting runes determine who or what a rune setup affects. They set the origin point, the number of targets, and interact directly with range and count modifiers.
+
+How targeting works
+
+- The targeting rune resolves first and establishes the point(s) or creature(s) affected.
+- The effect rune then applies its effect to those targets.
+- Modifiers on either rune may alter range, number of targets, or other targeting properties.
 
 ## Self
 
-> Centered at yourself
+**Self** — Origin is the caster.
+
+Mechanics:
+- The caster occupies the origin point; effects are centered on the caster.
+
+Example
+
+Casting an Area rune with Targeting:Self places the area around the caster.
 
 ## Touch
 
-> Centers the point you have touched with one of your hands
+**Touch** — Requires physical contact with the target.
 
-### Modifiers
+Mechanics:
+- The caster must touch the target with a free hand.
+- The spell triggers on touch; use Trigger modifiers to delay activation.
 
-- Trigger: Whatever you touch will be effected by your spell once someone interacts with that object/entity
-- Grand delay: Staggers the spell by an extra hour
-- Minor delay: Staggers the spell by an extra minute
+Modifiers
+
+- Trigger: The rune is set on the touched object and activates when the trigger condition is met.
+- Grand delay / Minor delay: Introduce long or short delays before activation (campaign-specific timing).
+
+Example
+
+A Trap rune applied to a door that detonates when opened.
 
 ## Entity
 
-> Targets a single creature within range
+**Entity** — Targets a single creature or object within range.
 
-### Modifiers
+Mechanics:
+- Choose a creature or object within the rune's range.
+- Apply effects to the selected entity (or multiple if Targets modifier is present).
 
-- Targets: Increases the number of targets by 1
-- Range: Increases the targeting range by 10ft
+Modifiers
+
+- Targets: Increase the number of targets by 1 per step.
+- Range: Increase targeting range by 10 ft per step.
+
+Example
+
+Entity → Enchantment:Charm to be placed on one guard; with Targets+1 it may affect two guards.
 
 ## Projectile
 
-> Can be shot in any direction, projectile dies when reaching max range
+**Projectile** — Creates a moving object that travels until it hits or reaches its maximum range.
 
-### Modifiers
+Mechanics:
+- The caster chooses a direction and target point.
+- The projectile travels and resolves on impact or at max range.
 
-- Count: Increases the number of projectiles by 1
-- Range: Increases the targeting range by 10ft
+Modifiers
+
+- Count: Launch multiple projectiles.
+- Range: Increase projectile maximum travel distance by 10 ft per step.
+
+Example
+
+Projectile → Explosion produces flaming orbs that detonate on impact.
+
+Notes
+
+- Targeting interacts heavily with battlefield geometry; always determine line of effect and cover before resolving.
